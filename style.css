@@ -1,0 +1,122 @@
+/* =========================
+   Navigation Bar
+   ========================= */
+
+.navbar {
+    background-color: #222;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+
+/* =========================
+   Main Content / Home
+   ========================= */
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#home {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px auto;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   Portfolio Section
+   ========================= */
+
+#portfolio {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    font-size: 22px;
+    color: #222;
+    margin: 15px 0 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   Footer
+   ========================= */
+
+#footer {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    position: relative;
+}
