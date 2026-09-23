@@ -53,6 +53,7 @@ body {
 .main-content {
     padding: 5em;
     text-align: center;
+    padding-top: 5em;
 }
 section{
     padding: 2em 1em;
@@ -127,7 +128,7 @@ section{
 }
 
 .portfolio-item {
-    background-color: white;
+    background-color: #fff;
     padding: 1em;
     width: 30%;
     border-radius: 10px;
